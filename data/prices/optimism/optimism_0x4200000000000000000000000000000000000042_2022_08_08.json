@@ -1,0 +1,146 @@
+[
+    {
+        "timestamp": "2022-08-08T00:00:00",
+        "price": 1.8850124162605721,
+        "median_price": 1.8871681260360607,
+        "median_safe_price": 1.8863314910080382
+    },
+    {
+        "timestamp": "2022-08-08T01:00:00",
+        "price": 1.8746366177998324,
+        "median_price": 1.8755,
+        "median_safe_price": 1.8755
+    },
+    {
+        "timestamp": "2022-08-08T02:00:00",
+        "price": 1.9030114512810583,
+        "median_price": 1.9064999999999999,
+        "median_safe_price": 1.9065
+    },
+    {
+        "timestamp": "2022-08-08T03:00:00",
+        "price": 1.9149573837604215,
+        "median_price": 1.9140000000000001,
+        "median_safe_price": 1.9140000000000001
+    },
+    {
+        "timestamp": "2022-08-08T04:00:00",
+        "price": 1.9207594843193592,
+        "median_price": 1.9215,
+        "median_safe_price": 1.9215
+    },
+    {
+        "timestamp": "2022-08-08T05:00:00",
+        "price": 1.9428620581704779,
+        "median_price": 1.946,
+        "median_safe_price": 1.9459999999999997
+    },
+    {
+        "timestamp": "2022-08-08T06:00:00",
+        "price": 1.9822095500315462,
+        "median_price": 1.9755000000000003,
+        "median_safe_price": 1.9767477849896773
+    },
+    {
+        "timestamp": "2022-08-08T07:00:00",
+        "price": 1.978087357537757,
+        "median_price": 1.976,
+        "median_safe_price": 1.976
+    },
+    {
+        "timestamp": "2022-08-08T08:00:00",
+        "price": 2.0160266911262292,
+        "median_price": 2.0020000000000002,
+        "median_safe_price": 2.0020000000000002
+    },
+    {
+        "timestamp": "2022-08-08T09:00:00",
+        "price": 2.0169718138577664,
+        "median_price": 2.0140000000000002,
+        "median_safe_price": 2.0140000000000002
+    },
+    {
+        "timestamp": "2022-08-08T10:00:00",
+        "price": 2.020992146449984,
+        "median_price": 2.0125,
+        "median_safe_price": 2.0125
+    },
+    {
+        "timestamp": "2022-08-08T11:00:00",
+        "price": 2.0208392640387927,
+        "median_price": 2.019,
+        "median_safe_price": 2.019
+    },
+    {
+        "timestamp": "2022-08-08T12:00:00",
+        "price": 2.014488584541927,
+        "median_price": 2.014,
+        "median_safe_price": 2.014
+    },
+    {
+        "timestamp": "2022-08-08T13:00:00",
+        "price": 1.992550483577606,
+        "median_price": 1.9974999999999998,
+        "median_safe_price": 1.9974999999999998
+    },
+    {
+        "timestamp": "2022-08-08T14:00:00",
+        "price": 1.9725995801361733,
+        "median_price": 1.9685000000000001,
+        "median_safe_price": 1.9685000000000001
+    },
+    {
+        "timestamp": "2022-08-08T15:00:00",
+        "price": 1.933234715590343,
+        "median_price": 1.9439999999999997,
+        "median_safe_price": 1.944
+    },
+    {
+        "timestamp": "2022-08-08T16:00:00",
+        "price": 1.9045262369083038,
+        "median_price": 1.9075,
+        "median_safe_price": 1.9075
+    },
+    {
+        "timestamp": "2022-08-08T17:00:00",
+        "price": 1.8843067470854429,
+        "median_price": 1.890670512568222,
+        "median_safe_price": 1.8893431869174835
+    },
+    {
+        "timestamp": "2022-08-08T18:00:00",
+        "price": 1.9004566604275108,
+        "median_price": 1.8985,
+        "median_safe_price": 1.8985
+    },
+    {
+        "timestamp": "2022-08-08T19:00:00",
+        "price": 1.907231582781607,
+        "median_price": 1.9094999999999998,
+        "median_safe_price": 1.9094999999999998
+    },
+    {
+        "timestamp": "2022-08-08T20:00:00",
+        "price": 1.9148441269337098,
+        "median_price": 1.9199999999999997,
+        "median_safe_price": 1.9191999484221203
+    },
+    {
+        "timestamp": "2022-08-08T21:00:00",
+        "price": 1.9037105644175827,
+        "median_price": 1.9074999999999998,
+        "median_safe_price": 1.9075
+    },
+    {
+        "timestamp": "2022-08-08T22:00:00",
+        "price": 1.8888343173459405,
+        "median_price": 1.8929999999999998,
+        "median_safe_price": 1.892587126008899
+    },
+    {
+        "timestamp": "2022-08-08T23:00:00",
+        "price": 1.8987936102690959,
+        "median_price": 1.9004999999999999,
+        "median_safe_price": 1.9004999999999999
+    }
+]

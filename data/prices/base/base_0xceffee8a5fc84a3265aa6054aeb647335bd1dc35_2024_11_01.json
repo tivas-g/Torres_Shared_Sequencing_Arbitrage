@@ -1,0 +1,134 @@
+[
+    {
+        "timestamp": "2024-11-01T00:00:00",
+        "price": 0.0002285978545945888,
+        "median_price": 0.00022925592645514024,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T01:00:00",
+        "price": 0.000228436606730841,
+        "median_price": 0.00022901886440244813,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T02:00:00",
+        "price": 0.00022348454528349122,
+        "median_price": 0.0002256565484881878,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T03:00:00",
+        "price": 0.00022601295707514544,
+        "median_price": 0.0002265072389745671,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T04:00:00",
+        "price": 0.00022399983484956723,
+        "median_price": 0.00022683351086645422,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T06:00:00",
+        "price": 0.00022731659382073868,
+        "median_price": 0.00022762808700755552,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T07:00:00",
+        "price": 0.00022930263820237953,
+        "median_price": 0.00022930263820237953,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T08:00:00",
+        "price": 0.00022862547713776676,
+        "median_price": 0.0002282802748079407,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T09:00:00",
+        "price": 0.00022725867453383673,
+        "median_price": 0.00022687752532598817,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T10:00:00",
+        "price": 0.0002293370885374448,
+        "median_price": 0.00022933708853744482,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T11:00:00",
+        "price": 0.00022982937252860085,
+        "median_price": 0.00022985138122188654,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T12:00:00",
+        "price": 0.00022964313618642596,
+        "median_price": 0.00022947403229220138,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T13:00:00",
+        "price": 0.00023002361927603674,
+        "median_price": 0.00023166062620638627,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T14:00:00",
+        "price": 0.00023639902725081883,
+        "median_price": 0.00023708103326000753,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T15:00:00",
+        "price": 0.00023597133162891267,
+        "median_price": 0.00023632844648399035,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T16:00:00",
+        "price": 0.00023322334301379062,
+        "median_price": 0.00023348566746313963,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T17:00:00",
+        "price": 0.00023093331474290533,
+        "median_price": 0.00023143125168848623,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T18:00:00",
+        "price": 0.00022703165806697503,
+        "median_price": 0.0002278599541971427,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T19:00:00",
+        "price": 0.0002288526189293689,
+        "median_price": 0.00022587726197281763,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T20:00:00",
+        "price": 0.00022663768438748637,
+        "median_price": 0.0002266419705186179,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T21:00:00",
+        "price": 0.00022535577125945756,
+        "median_price": 0.00022535577125945756,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T22:00:00",
+        "price": 0.00023143150802444314,
+        "median_price": 0.0002256174496892147,
+        "median_safe_price": null
+    }
+]

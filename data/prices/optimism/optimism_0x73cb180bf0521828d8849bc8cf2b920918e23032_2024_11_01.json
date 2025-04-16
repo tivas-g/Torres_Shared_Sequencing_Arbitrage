@@ -1,0 +1,140 @@
+[
+    {
+        "timestamp": "2024-11-01T00:00:00",
+        "price": 0.9996727358002852,
+        "median_price": 0.9995050000000001,
+        "median_safe_price": 0.9995049999999999
+    },
+    {
+        "timestamp": "2024-11-01T01:00:00",
+        "price": 0.9984262713080893,
+        "median_price": 0.9985533265950428,
+        "median_safe_price": 0.9983448932814993
+    },
+    {
+        "timestamp": "2024-11-01T02:00:00",
+        "price": 0.9998851881289799,
+        "median_price": 0.9998614678458841,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T03:00:00",
+        "price": 1.0000264609115803,
+        "median_price": 1.0000204788706628,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T04:00:00",
+        "price": 1.0001066455788306,
+        "median_price": 1.0000810180151896,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T05:00:00",
+        "price": 1.0000069879119713,
+        "median_price": 1.0000058386357396,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T07:00:00",
+        "price": 1.0002034912012174,
+        "median_price": 1.0002034912012174,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T08:00:00",
+        "price": 1.0007459507069445,
+        "median_price": 1.001,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T09:00:00",
+        "price": 1.0003293231912844,
+        "median_price": 1.0005640027484772,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T10:00:00",
+        "price": 1.0012292481121046,
+        "median_price": 1.0019999999999998,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T11:00:00",
+        "price": 1.0002548735379302,
+        "median_price": 0.9999272218693781,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T12:00:00",
+        "price": 0.9988231691037828,
+        "median_price": 0.998705,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T13:00:00",
+        "price": 1.0010000000000001,
+        "median_price": 1.0010000000000001,
+        "median_safe_price": 1.0010000000000001
+    },
+    {
+        "timestamp": "2024-11-01T14:00:00",
+        "price": 0.9991257819051719,
+        "median_price": 0.998998,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T15:00:00",
+        "price": 1.0007134583116586,
+        "median_price": 1.001,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T16:00:00",
+        "price": 0.9995970443283203,
+        "median_price": 1.0020605550599782,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T17:00:00",
+        "price": 1.0004310847019235,
+        "median_price": 0.999709182673395,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T18:00:00",
+        "price": 0.9996935020291711,
+        "median_price": 0.9989703051467522,
+        "median_safe_price": 0.9980310000000001
+    },
+    {
+        "timestamp": "2024-11-01T19:00:00",
+        "price": 0.9995520485061975,
+        "median_price": 0.9995337475374833,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T20:00:00",
+        "price": 0.999943009599644,
+        "median_price": 0.999943009599644,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T21:00:00",
+        "price": 1.0005928837617468,
+        "median_price": 0.9999681482925604,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T22:00:00",
+        "price": 0.9985263636081128,
+        "median_price": 0.9986557588021834,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T23:00:00",
+        "price": 1.0006274630974672,
+        "median_price": 1.001,
+        "median_safe_price": null
+    }
+]

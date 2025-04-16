@@ -1,0 +1,146 @@
+[
+    {
+        "timestamp": "2022-11-30T00:00:00",
+        "price": 1217.7221527407105,
+        "median_price": 1217.6602,
+        "median_safe_price": 1217.6602
+    },
+    {
+        "timestamp": "2022-11-30T01:00:00",
+        "price": 1274.2106550467606,
+        "median_price": 1274.225,
+        "median_safe_price": 1274.225
+    },
+    {
+        "timestamp": "2022-11-30T02:00:00",
+        "price": 1275.5112269537526,
+        "median_price": 1275.52,
+        "median_safe_price": 1275.52
+    },
+    {
+        "timestamp": "2022-11-30T03:00:00",
+        "price": 1268.0535465695968,
+        "median_price": 1268.05,
+        "median_safe_price": 1268.05
+    },
+    {
+        "timestamp": "2022-11-30T04:00:00",
+        "price": 1267.5868527334344,
+        "median_price": 1267.59,
+        "median_safe_price": 1267.59
+    },
+    {
+        "timestamp": "2022-11-30T05:00:00",
+        "price": 1271.1189664027809,
+        "median_price": 1271.125,
+        "median_safe_price": 1271.125
+    },
+    {
+        "timestamp": "2022-11-30T06:00:00",
+        "price": 1269.6623009965674,
+        "median_price": 1269.665,
+        "median_safe_price": 1269.665
+    },
+    {
+        "timestamp": "2022-11-30T07:00:00",
+        "price": 1271.2027489218888,
+        "median_price": 1271.26,
+        "median_safe_price": 1271.26
+    },
+    {
+        "timestamp": "2022-11-30T08:00:00",
+        "price": 1270.3515528213454,
+        "median_price": 1270.36,
+        "median_safe_price": 1270.36
+    },
+    {
+        "timestamp": "2022-11-30T09:00:00",
+        "price": 1267.1342595112721,
+        "median_price": 1267.145,
+        "median_safe_price": 1267.145
+    },
+    {
+        "timestamp": "2022-11-30T10:00:00",
+        "price": 1265.581534998995,
+        "median_price": 1265.58,
+        "median_safe_price": 1265.58
+    },
+    {
+        "timestamp": "2022-11-30T11:00:00",
+        "price": 1265.511956815099,
+        "median_price": 1265.51,
+        "median_safe_price": 1265.51
+    },
+    {
+        "timestamp": "2022-11-30T12:00:00",
+        "price": 1262.7721287840172,
+        "median_price": 1262.765,
+        "median_safe_price": 1262.765
+    },
+    {
+        "timestamp": "2022-11-30T13:00:00",
+        "price": 1260.0975732339623,
+        "median_price": 1260.08,
+        "median_safe_price": 1260.08
+    },
+    {
+        "timestamp": "2022-11-30T14:00:00",
+        "price": 1264.5525336877731,
+        "median_price": 1264.56,
+        "median_safe_price": 1264.56
+    },
+    {
+        "timestamp": "2022-11-30T15:00:00",
+        "price": 1267.0747227334332,
+        "median_price": 1267.095,
+        "median_safe_price": 1267.095
+    },
+    {
+        "timestamp": "2022-11-30T16:00:00",
+        "price": 1270.3966619050934,
+        "median_price": 1270.4,
+        "median_safe_price": 1270.4
+    },
+    {
+        "timestamp": "2022-11-30T17:00:00",
+        "price": 1269.7576905956075,
+        "median_price": 1269.77,
+        "median_safe_price": 1269.77
+    },
+    {
+        "timestamp": "2022-11-30T18:00:00",
+        "price": 1272.5308600699746,
+        "median_price": 1272.535,
+        "median_safe_price": 1272.535
+    },
+    {
+        "timestamp": "2022-11-30T19:00:00",
+        "price": 1286.6428654632566,
+        "median_price": 1286.635,
+        "median_safe_price": 1286.635
+    },
+    {
+        "timestamp": "2022-11-30T20:00:00",
+        "price": 1291.2437519006312,
+        "median_price": 1291.245,
+        "median_safe_price": 1291.245
+    },
+    {
+        "timestamp": "2022-11-30T21:00:00",
+        "price": 1295.5454177310562,
+        "median_price": 1295.555,
+        "median_safe_price": 1295.555
+    },
+    {
+        "timestamp": "2022-11-30T22:00:00",
+        "price": 1298.0003491412426,
+        "median_price": 1298.005,
+        "median_safe_price": 1298.005
+    },
+    {
+        "timestamp": "2022-11-30T23:00:00",
+        "price": 1296.6866734376124,
+        "median_price": 1296.68,
+        "median_safe_price": 1296.68
+    }
+]

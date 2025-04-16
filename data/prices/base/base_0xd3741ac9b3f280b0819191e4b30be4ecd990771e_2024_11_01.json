@@ -1,0 +1,68 @@
+[
+    {
+        "timestamp": "2024-11-01T00:00:00",
+        "price": 0.0006093726840638604,
+        "median_price": 0.0006093726840638604,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T03:00:00",
+        "price": 0.000611109542253865,
+        "median_price": 0.000611109542253865,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T08:00:00",
+        "price": 0.0006196344487101479,
+        "median_price": 0.0006196344487101479,
+        "median_safe_price": 0.0006196344487101479
+    },
+    {
+        "timestamp": "2024-11-01T10:00:00",
+        "price": 0.000630754124666731,
+        "median_price": 0.000630754124666731,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T12:00:00",
+        "price": 0.0006267957209977957,
+        "median_price": 0.0006267957209977957,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T13:00:00",
+        "price": 0.0006355790780052465,
+        "median_price": 0.000635645088593086,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T14:00:00",
+        "price": 0.0006421867510953972,
+        "median_price": 0.0006421095628095281,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T15:00:00",
+        "price": 0.0006349439075881653,
+        "median_price": 0.0006349439075881653,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T16:00:00",
+        "price": 0.0006283410689418015,
+        "median_price": 0.0006283410689418015,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T18:00:00",
+        "price": 0.00063107631986418,
+        "median_price": 0.00063107631986418,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T19:00:00",
+        "price": 0.0006224165263864276,
+        "median_price": 0.0006224165263864276,
+        "median_safe_price": 0.0006224165263864276
+    }
+]

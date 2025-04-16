@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-mongoexport --host localhost --db cross_chain_arbitrage --collection single_chain_profitable_paths --type=csv --out single_chain_profitable_paths.csv --fields id,timestamp_range_start,timestamp_range_stop,number_of_updated_pools,number_of_updated_paths,number_of_paths_with_positive_gains,number_of_simulated_paths,number_of_profitable_non_conflicting_paths,profitable_non_conflicting_paths,total_profit_usd
-zip single_chain_profitable_paths.zip single_chain_profitable_paths.csv
-rm single_chain_profitable_paths.csv

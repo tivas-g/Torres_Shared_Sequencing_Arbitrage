@@ -1,0 +1,134 @@
+[
+    {
+        "timestamp": "2024-11-01T00:00:00",
+        "price": 0.9995336521301532,
+        "median_price": 0.9995336521301532,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T01:00:00",
+        "price": 0.9964634421158723,
+        "median_price": 0.9977909053861405,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T02:00:00",
+        "price": 1.0001468434291663,
+        "median_price": 1.0,
+        "median_safe_price": 0.9998585496021404
+    },
+    {
+        "timestamp": "2024-11-01T03:00:00",
+        "price": 0.9972081243169294,
+        "median_price": 0.9990464307869144,
+        "median_safe_price": 0.99884699279401
+    },
+    {
+        "timestamp": "2024-11-01T04:00:00",
+        "price": 0.987828238541816,
+        "median_price": 0.9883559257965103,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T05:00:00",
+        "price": 0.9925218920664974,
+        "median_price": 0.9896101664197536,
+        "median_safe_price": 0.9895901092743495
+    },
+    {
+        "timestamp": "2024-11-01T06:00:00",
+        "price": 1.0018080773142481,
+        "median_price": 1.0005809553219553,
+        "median_safe_price": 1.0020064003068112
+    },
+    {
+        "timestamp": "2024-11-01T07:00:00",
+        "price": 1.0024102438678524,
+        "median_price": 1.005,
+        "median_safe_price": 1.005
+    },
+    {
+        "timestamp": "2024-11-01T08:00:00",
+        "price": 1.0016058528688634,
+        "median_price": 1.004,
+        "median_safe_price": 1.0002418775665876
+    },
+    {
+        "timestamp": "2024-11-01T09:00:00",
+        "price": 0.9918849808418005,
+        "median_price": 0.9992082806145944,
+        "median_safe_price": 0.9992089247756951
+    },
+    {
+        "timestamp": "2024-11-01T10:00:00",
+        "price": 1.0017965081903777,
+        "median_price": 1.001148741658099,
+        "median_safe_price": 1.0006974978188354
+    },
+    {
+        "timestamp": "2024-11-01T11:00:00",
+        "price": 1.0010045471286846,
+        "median_price": 1.0002394708241438,
+        "median_safe_price": 1.0011197354120718
+    },
+    {
+        "timestamp": "2024-11-01T12:00:00",
+        "price": 0.9989685035009952,
+        "median_price": 0.9996787263268816,
+        "median_safe_price": 0.99866552923322
+    },
+    {
+        "timestamp": "2024-11-01T13:00:00",
+        "price": 0.9897470852548198,
+        "median_price": 0.9991617588283885,
+        "median_safe_price": 0.9991722170987201
+    },
+    {
+        "timestamp": "2024-11-01T14:00:00",
+        "price": 0.9905911081641727,
+        "median_price": 0.9997399999999999,
+        "median_safe_price": 0.9907432634198092
+    },
+    {
+        "timestamp": "2024-11-01T15:00:00",
+        "price": 1.0011943197794668,
+        "median_price": 0.9998036518648061,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T16:00:00",
+        "price": 0.9944743568187793,
+        "median_price": 0.9939134618192237,
+        "median_safe_price": 0.9966085811490613
+    },
+    {
+        "timestamp": "2024-11-01T17:00:00",
+        "price": 0.9961261219629165,
+        "median_price": 0.994439503972567,
+        "median_safe_price": 0.9961302922342865
+    },
+    {
+        "timestamp": "2024-11-01T18:00:00",
+        "price": 0.9995872410559737,
+        "median_price": 1.0000838666991498,
+        "median_safe_price": 1.0006891542691982
+    },
+    {
+        "timestamp": "2024-11-01T19:00:00",
+        "price": 0.9997286354269762,
+        "median_price": 0.9997218138255546,
+        "median_safe_price": 0.9997218138255546
+    },
+    {
+        "timestamp": "2024-11-01T21:00:00",
+        "price": 1.0008885289729996,
+        "median_price": 1.0000823122782845,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T22:00:00",
+        "price": 0.9988764357845896,
+        "median_price": 0.9984070000000002,
+        "median_safe_price": 0.9989036072110227
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "timestamp": "2024-11-01T01:00:00",
+        "price": 6.12202816784427e-06,
+        "median_price": 6.12202816784427e-06,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T03:00:00",
+        "price": 6.08798666657044e-06,
+        "median_price": 6.096270578947368e-06,
+        "median_safe_price": 6.096270578947368e-06
+    },
+    {
+        "timestamp": "2024-11-01T09:00:00",
+        "price": 6.075302844795086e-06,
+        "median_price": 6.075138428219869e-06,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T10:00:00",
+        "price": 6.1506153245420944e-06,
+        "median_price": 6.163407909097267e-06,
+        "median_safe_price": 6.1462808611242655e-06
+    },
+    {
+        "timestamp": "2024-11-01T11:00:00",
+        "price": 6.141365588587381e-06,
+        "median_price": 6.141365588587381e-06,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T12:00:00",
+        "price": 6.1190708647993625e-06,
+        "median_price": 6.128915424200025e-06,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T14:00:00",
+        "price": 6.113540480281728e-06,
+        "median_price": 6.125768165339541e-06,
+        "median_safe_price": 6.10127419432413e-06
+    },
+    {
+        "timestamp": "2024-11-01T16:00:00",
+        "price": 6.0653496338354025e-06,
+        "median_price": 6.0653496338354025e-06,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T17:00:00",
+        "price": 6.059749191924957e-06,
+        "median_price": 6.059749191924957e-06,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T18:00:00",
+        "price": 6.242061172708888e-06,
+        "median_price": 6.305408987609422e-06,
+        "median_safe_price": 6.231631032146717e-06
+    },
+    {
+        "timestamp": "2024-11-01T20:00:00",
+        "price": 6.371212817255e-06,
+        "median_price": 6.371212817255e-06,
+        "median_safe_price": null
+    }
+]

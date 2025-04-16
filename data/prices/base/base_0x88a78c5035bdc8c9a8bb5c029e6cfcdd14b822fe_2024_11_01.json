@@ -1,0 +1,86 @@
+[
+    {
+        "timestamp": "2024-11-01T01:00:00",
+        "price": 0.0025886446694772577,
+        "median_price": 0.0025886446694772577,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T04:00:00",
+        "price": 0.002478083407615411,
+        "median_price": 0.0024964782658153458,
+        "median_safe_price": 0.002477784926171324
+    },
+    {
+        "timestamp": "2024-11-01T05:00:00",
+        "price": 0.002440707232388557,
+        "median_price": 0.002440707232388557,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T09:00:00",
+        "price": 0.002451072875264294,
+        "median_price": 0.0024452731471809284,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T10:00:00",
+        "price": 0.0024426617815476335,
+        "median_price": 0.0024537824686909114,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T11:00:00",
+        "price": 0.0024650984932620165,
+        "median_price": 0.0024650984932620165,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T12:00:00",
+        "price": 0.0024389361574828398,
+        "median_price": 0.0024547852540330426,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T13:00:00",
+        "price": 0.002432747199842001,
+        "median_price": 0.0024707791454809643,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T14:00:00",
+        "price": 0.002564158883229688,
+        "median_price": 0.0025537679118283504,
+        "median_safe_price": 0.0025647432631174137
+    },
+    {
+        "timestamp": "2024-11-01T15:00:00",
+        "price": 0.0025818477766790227,
+        "median_price": 0.002553352098839858,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T16:00:00",
+        "price": 0.002506661284024438,
+        "median_price": 0.002506661820533776,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T17:00:00",
+        "price": 0.002523562063728214,
+        "median_price": 0.0025235617355507814,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T18:00:00",
+        "price": 0.002505341839422039,
+        "median_price": 0.0025081336831445345,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T19:00:00",
+        "price": 0.0025075844669761337,
+        "median_price": 0.002507584070190032,
+        "median_safe_price": null
+    }
+]

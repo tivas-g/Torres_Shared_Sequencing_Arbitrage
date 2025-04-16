@@ -1,0 +1,2671 @@
+[
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xc6962004f452be9203591991d15f6b388e09e8d0",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x641c00a822e8b671738d32a431a4fb6074e5c79d",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x2f5e87c9312fa29aed5c179e456625d79015299c",
+        "token0": {
+            "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+            "symbol": "WBTC",
+            "decimals": "8"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xc31e54c7a869b9fcbecc14363cf510d1c41fa443",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xc6f780497a95e246eb9449f5e4770916dcd6396a",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+            "symbol": "ARB",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x0e4831319a50228b9e450861297ab92dee15b44f",
+        "token0": {
+            "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+            "symbol": "WBTC",
+            "decimals": "8"
+        },
+        "token1": {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xcda53b1f66614552f834ceef361a8d12a0b8dad8",
+        "token0": {
+            "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+            "symbol": "ARB",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x5969efdde3cf5c0d9a88ae51e47d721096a97203",
+        "token0": {
+            "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+            "symbol": "WBTC",
+            "decimals": "8"
+        },
+        "token1": {
+            "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0x1fb3cf6e48f1e7b10213e7b6d87d4c073c7fdb7b",
+        "token0": {
+            "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xbe3ad6a5669dc0b8b12febc03608860c31e2eef6",
+        "token0": {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+            "symbol": "DEGEN",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xb4cb800910b228ed3d0834cf79d697127bbb00e5",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x9c087eb773291e50cf6c6a90ef0f4500e349b903",
+        "token0": {
+            "address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+            "symbol": "VIRTUAL",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0xfc1f3296458f9b2a27a0b91dd7681c4020e09d05",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000042",
+            "symbol": "OP",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x42161084d0672e1d3f26a9b53e653be2084ff19c",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xdbaeb7f0dfe3a0aafd798ccecb5b22e708f7852c",
+        "token0": {
+            "address": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+            "symbol": "PENDLE",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "arbitrum",
+        "address": "0x879ad3b4d85e049d81bfa732db7e00b6d04d676e",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xfb411a4a80bb7a5ec87c7651acdd605fe14c36e4",
+            "symbol": "TRUMP",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x35218a1cbac5bbc3e57fd9bd38219d37571b3537",
+        "token0": {
+            "address": "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "symbol": "wstETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x76bf0abd20f1e0155ce40a62615a90a709a6c3d8",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
+            "symbol": "BRETT",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xb0f6ca40411360c03d41c5ffc5f179b8403cdcf8",
+        "token0": {
+            "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+            "symbol": "ARB",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0x68f5c0a2de713a54991e01858fd27a3832401849",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000042",
+            "symbol": "OP",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x06959273e9a65433de71f5a452d529544e07ddd0",
+        "token0": {
+            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+            "symbol": "USDbC",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0xe31c372a7af875b3b5e0f3713b17ef51556da667",
+        "token0": {
+            "address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+            "symbol": "VIRTUAL",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0xa73c628eaf6e283e26a7b1f8001cf186aa4c0e8e",
+        "token0": {
+            "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xb08a8794a5d3ccca3725d92964696858d3201909",
+        "token0": {
+            "address": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+            "symbol": "PENDLE",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "arbitrum",
+        "address": "0xf4b9e263869112a4179949257a080ef59a426361",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xe4164a07941c1ab087563726bfb4686c997aef59",
+            "symbol": "MAGIC",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x1d4dab3f27c7f656b6323c1d6ef713b48a8f72f1",
+        "token0": {
+            "address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+            "symbol": "VIRTUAL",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x6f38e884725a116c9c7fbf208e79fe8828a2595f",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0x2ab22ac86b25bd448a4d9dc041bd2384655299c4",
+        "token0": {
+            "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x8e295789c9465487074a65b1ae9ce0351172393f",
+        "token0": {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x3d5d143381916280ff91407febeb52f2b60f33cf",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+            "symbol": "AERO",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xba3f945812a83471d709bce9c3ca699a19fb46f7",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
+            "symbol": "BRETT",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0x04f6c85a1b00f6d9b75f91fd23835974cc07e65c",
+        "token0": {
+            "address": "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb",
+            "symbol": "wstETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x4cef551255ec96d89fec975446301b5c4e164c59",
+        "token0": {
+            "address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+            "symbol": "ZRO",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x468b88941e7cc0b88c1869d68ab6b570bcef62ff",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+            "symbol": "LINK",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xf1fdc83c3a336bdbdc9fb06e318b08eaddc82ff4",
+        "token0": {
+            "address": "0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
+            "symbol": "AIXBT",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x8c9d230d45d6cfee39a6680fb7cb7e8de7ea8e71",
+        "token0": {
+            "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0xf1f199342687a7d78bcc16fce79fa2665ef870e1",
+        "token0": {
+            "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x1aeedd3727a6431b8f070c0afaa81cc74f273882",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+            "symbol": "GMX",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x14353445c8329df76e6f15e9ead18fa2d45a8bb6",
+        "token0": {
+            "address": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
+            "symbol": "weETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xfbb6eed8e7aa03b138556eedaf5d271a5e1e43ef",
+        "token0": {
+            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+            "symbol": "cbBTC",
+            "decimals": "8"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x20e068d76f9e90b90604500b84c7e19dcb923e7e",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452",
+            "symbol": "wstETH",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x36a46dff597c5a444bbc521d26787f57867d2214",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
+            "symbol": "BRETT",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x7cf803e8d82a50504180f417b8bc7a493c0a0503",
+        "token0": {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x7aea2e8a3843516afa07293a10ac8e49906dabd1",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+            "symbol": "cbBTC",
+            "decimals": "8"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0xd1f1bad4c9e6c44dec1e9bf3b94902205c5cd6c3",
+        "token0": {
+            "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xdc6ff44d5d932cbd77b52e5612ba0529dc6226f1",
+            "symbol": "WLD",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xac70bd92f89e6739b3a08db9b6081a923912f73d",
+        "token0": {
+            "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+            "symbol": "WBTC",
+            "decimals": "8"
+        },
+        "token1": {
+            "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x7ec18abf80e865c6799069df91073335935c4185",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xe3086852a4b125803c815a158249ae468a3254ca",
+            "symbol": "$mfer",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xd56da2b74ba826f19015e6b7dd9dae1903e85da1",
+        "token0": {
+            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0x6d6391b9bd02eefa00fa711fb1cb828a6471d283",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x768be13e1680b5ebe0024c42c896e3db59ec0149",
+            "symbol": "SKI",
+            "decimals": "9"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0xb533c12fb4e7b53b5524eab9b47d93ff6c7a456f",
+        "token0": {
+            "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000042",
+            "symbol": "OP",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x7f580f8a02b759c350e6b8340e7c2d4b8162b6a9",
+        "token0": {
+            "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xf4348227607b166917b9f50cf51979e376995b73",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xfea9dcdc9e23a9068bf557ad5b186675c61d33ea",
+            "symbol": "BSHIB",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xb791ad21ba45c76629003b4a2f04c0d544406e37",
+        "token0": {
+            "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+            "symbol": "ARB",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0x17a3ad8c74c4947005afeda9965305ae2eb2518a",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xb1a03eda10342529bbf8eb700a06c60441fef25d",
+            "symbol": "MIGGLES",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x92c63d0e701caae670c9415d91c474f686298f00",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+            "symbol": "ARB",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xc473e2aee3441bf9240be85eb122abb059a3b57c",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x9f934d552476c992de3751a4873f2c1fbeb032b2",
+        "token0": {
+            "address": "0xd85e038593d7a098614721eae955ec2022b9b91b",
+            "symbol": "gDAI",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0x6a77cdec82eff6a6a5d273f18c1c27cd3d71a588",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x85e90a5430af45776548adb82ee4cd9e33b08077",
+            "symbol": "DINO",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x3dd2fdba71282083d440687cce9e4231aaac534e",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65",
+            "symbol": "USD+",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xd7584a2b4584bd0a9f6d0609c27afa3a06ce303b",
+        "token0": {
+            "address": "0x1c4f589c48fd3b707fb87c6b6ad5a362ef75c683",
+            "symbol": "TRUMP",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x4b0aaf3ebb163dd45f663b38b6d93f6093ebc2d3",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4",
+            "symbol": "TOSHI",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x59d72ddb29da32847a4665d08ffc8464a7185fae",
+        "token0": {
+            "address": "0x539bde0d7dbd336b79148aa742883198bbf60342",
+            "symbol": "MAGIC",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xbd1a219ba8494fe6e77b81022f6d07175b58b2ef",
+        "token0": {
+            "address": "0x01177faf5ceb245b02fa1f008bd11bfefe6cea68",
+            "symbol": "TRUMP",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0x377feeed4820b3b28d1ab429509e7a0789824fca",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x9a26f5433671751c3276a065f57e5a02d2817973",
+            "symbol": "KEYCAT",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x421803da50d3932caa36bd1731d36a0e2af93542",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65",
+            "symbol": "USD+",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xc7341e85996eeb05897d3dec79448b6e4ccc09cf",
+        "token0": {
+            "address": "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "symbol": "wstETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x67ab7dc903a10838a0de8861dfdff3287cf98e5c",
+        "token0": {
+            "address": "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65",
+            "symbol": "USD+",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xa95b0f5a65a769d82ab4f3e82842e45b8bbaf101",
+        "token0": {
+            "address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
+            "symbol": "CRV",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x50e7b9293aef80c304234e86c84a01be8401c530",
+        "token0": {
+            "address": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+            "symbol": "PENDLE",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xaeeceec4b31d3c1057210115bf176ebb05b9805d",
+        "token0": {
+            "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+            "symbol": "axlUSDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xec9259978b2007e190b6f6eb821ad47b9857cd3d",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xe1abd004250ac8d1f199421d647e01d094faa180",
+            "symbol": "ROOST",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x62d16ec2a8579c6080a04aa00a45c7c19859394c",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xa28dc89270355c129cb7a3070094ffb1859cc6f1",
+            "symbol": "FART",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0xb08a99ab559e5456907278727a3b0d968c0a313b",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xe3086852a4b125803c815a158249ae468a3254ca",
+            "symbol": "$mfer",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x48b0ab72c2591849e678e7d6f272b75ef9b863f7",
+        "token0": {
+            "address": "0x4186bfc76e2e237523cbc30fd220fe055156b41f",
+            "symbol": "rsETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0xd418dfe7670c21f682e041f34250c114db5d7789",
+        "token0": {
+            "address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+            "symbol": "VIRTUAL",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x1c4cca7c5db003824208adda61bd749e55f463a3",
+            "symbol": "GAME",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xd92e0767473d1e3ff11ac036f2b1db90ad0ae55f",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xa213c82265cd3d94f972f735a4f5130e34df81bc",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x6b2504a03ca4d43d0d73776f6ad46dab2f2a4cfd",
+            "symbol": "REI",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xe2dda0911e227e73d9fd94745b851c8bc6504610",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x968d6a288d7b024d5012c0b25d67a889e4e3ec19",
+            "symbol": "INT",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0x1c3140ab59d6caf9fa7459c6f83d4b52ba881d36",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000042",
+            "symbol": "OP",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x7c5d638643cf77004482b4bc6f192ddaa4874551",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xe0bcce4c349f1f31fd5d9b600106e5112e3f214d",
+            "symbol": "PENGU",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0x252cbdff917169775be2b552ec9f6781af95e7f6",
+        "token0": {
+            "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9",
+            "symbol": "sUSD",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0xa8e64fb120ce8796594670bae72279c8aa1e5359",
+        "token0": {
+            "address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+            "symbol": "VIRTUAL",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x55cd6469f597452b5a7536e2cd98fde4c1247ee4",
+            "symbol": "LUNA",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x8055e6de251e414e8393b20adab096afb3cf8399",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x96419929d7949d6a801a6909c145c8eef6a40431",
+            "symbol": "SPEC",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0xbf16ef186e715668aa29cef57e2fd7f9d48adfe6",
+        "token0": {
+            "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xadad4ce0c68f50a19cf5063e0b91d701daab1df1",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xb1a03eda10342529bbf8eb700a06c60441fef25d",
+            "symbol": "MIGGLES",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0xe2101d19b78e695982975cc1a27b6a9117e02b09",
+        "token0": {
+            "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9",
+            "symbol": "sUSD",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xd82403772cb858219cfb58bfab46ba7a31073474",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x9a26f5433671751c3276a065f57e5a02d2817973",
+            "symbol": "KEYCAT",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x8b6232674559a81e01349d2df3430ca543d8d196",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xa8334525aa440a27826b915547f32f7f9d0b0503",
+            "symbol": "DOGE",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x446bf9748b4ea044dd759d9b9311c70491df8f29",
+        "token0": {
+            "address": "0x3082cc23568ea640225c2467653db90e9250aaa0",
+            "symbol": "RDNT",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x74d0ae8b8e1fca6039707564704a25ad2ee036b0",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x9623063377ad1b27544c965ccd7342f7ea7e88c7",
+            "symbol": "GRT",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xc82819f72a9e77e2c0c3a69b3196478f44303cf4",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x6c561b446416e1a00e8e93e221854d6ea4171372",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xa9dafa443a02fbc907cb0093276b3e6f4ef02a46",
+        "token0": {
+            "address": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+            "symbol": "cbETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x60f5ebcd70de974afaf9e88fcc8a8bbc2cafcda3",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x8c3ed1f4d142965d19e0db48ae189dd9448ad95a",
+            "symbol": "WOT",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x7548bd60cb8f627a9b8ed94f8ca174348dbe6a05",
+        "token0": {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65",
+            "symbol": "USD+",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x17c14d2c404d167802b16c450d3c99f88f2c4f4d",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xade9bcd4b968ee26bed102dd43a55f6a8c2416df",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x6921b130d297cc43754afba22e5eac0fbf8db75b",
+            "symbol": "doginme",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xda679706ff21114ac9fac5198bff24543f357a16",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x5babfc2f240bc5de90eb7e19d789412db1dec402",
+            "symbol": "CIRCLE",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x717358a47ac99f3cd233e723be331756b3951164",
+        "token0": {
+            "address": "0x0fd7a301b51d0a83fcaf6718628174d527b373b6",
+            "symbol": "LUM",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xe754841b77c874135caca3386676e886459c2d61",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0x7464850cc1cfb54a2223229b77b1bca2f888d946",
+        "token0": {
+            "address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+            "symbol": "VIRTUAL",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
+            "symbol": "AIXBT",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0x8323d063b1d12acce4742f1e3ed9bc46d71f4222",
+        "token0": {
+            "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x9761ec91aed5a9aaed7c1b3c17ec8fb76a582c25",
+        "token0": {
+            "address": "0x0265c6971037564f2a1382f63fe9d707342891f2",
+            "symbol": "MAGA",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x7784dfb4b9b848e1b5515dcac459539972260636",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xbb1b725e34d2d3b6a4127130890b3dd62a19e743",
+            "symbol": "",
+            "decimals": ""
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x0aa352230c5c05fa912dac0b538551f79121e29b",
+        "token0": {
+            "address": "0x347f500323d51e9350285daf299ddb529009e6ae",
+            "symbol": "BLERF",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xee6f3c5f418d1097c50c4698d535edb33bd72931",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x96419929d7949d6a801a6909c145c8eef6a40431",
+            "symbol": "SPEC",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x1ba3281b6012f0b927d4d122bda293aa3cac487f",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xbffb921f1a95727e5db5c36bcb9080056f0c5761",
+            "symbol": "SHIB",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xf29f36aa9534b9afd64db6a9998c035b8f74c00b",
+        "token0": {
+            "address": "0x02f0d667d7a94580dd4e79dbdcecd5b047f16349",
+            "symbol": "TRUMPMAGA",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xaa9e653252ed9e87a9bd545b974efbfb2f389f3f",
+        "token0": {
+            "address": "0x18c11fd286c5ec11c3b683caa813b77f5163a122",
+            "symbol": "GNS",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xa961f0473da4864c5ed28e00fcc53a3aab056c1b",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x8c7080564b5a792a33ef2fd473fba6364d5495e5",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+            "symbol": "cbBTC",
+            "decimals": "8"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xc1a6fbedae68e1472dbb91fe29b51f7a0bd44f97",
+        "token0": {
+            "address": "0x1bc0c42215582d5a085795f4badbac3ff36d1bcb",
+            "symbol": "CLANKER",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x8deb37b048f4b3c7bd61eca7dfccbef7cba726de",
+        "token0": {
+            "address": "0x15ac90165f8b45a80534228bdcb124a011f62fee",
+            "symbol": "MOEW",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xcc28456d4ff980cee3457ca809a257e52cd9cdb0",
+        "token0": {
+            "address": "0x0578d8a44db98b23bf096a382e016e29a5ce0ffe",
+            "symbol": "HIGHER",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0xd28f71e383e93c570d3edfe82ebbceb35ec6c412",
+        "token0": {
+            "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x01a1f5758c3a53057b6c819ec7331e39c167794a",
+        "token0": {
+            "address": "0x20d704099b62ada091028bcfc44445041ed16f09",
+            "symbol": "CHAOS",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xdd672b3b768a16b9bcb4ee1060d3e8221435beaa",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xba5ddd1f9d7f570dc94a51479a000e3bce967196",
+            "symbol": "AAVE",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x7553b61c3e83b37e6a7f8729d72f488172cd420a",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x9a3b7959e998bf2b50ef1969067d623877050d92",
+            "symbol": "PBB",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xb1419a7f9e8c6e434b1d05377e0dbc4154e3de78",
+        "token0": {
+            "address": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a",
+            "symbol": "weETH.base",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x7fd96e924d0a3eaee16a12efe4aa4fa59afe7fc3",
+        "token0": {
+            "address": "0x37b25652448bdd1af0c52e06caf799526aeba1cd",
+            "symbol": "CHILLGUY",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x40cc6f68400958bf7225e8a762d3ad41c1064086",
+        "token0": {
+            "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+            "symbol": "ezETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xb3df8843c601d7dc9a01d30e793ca52d2139da1d",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4ce4079a01cedc9549bfb16173a6f68119783676",
+            "symbol": "TRUMP",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x68b27e9066d3aadc6078e17c8611b37868f96a1d",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xb33ff54b9f7242ef1593d2c9bcd8f9df46c77935",
+            "symbol": "FAI",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x80a9ae39310abf666a87c743d6ebbd0e8c42158e",
+        "token0": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+            "symbol": "GMX",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x636bebf45e8bc9db999859da0a1dd839fdd3dc89",
+        "token0": {
+            "address": "0x3e05d37cfbd8caaad9e3322d35cc727afaff63e3",
+            "symbol": "BENG",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xd56f086e7b796b313d49f2bc926fac4bdd2a2b0b",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xaa6cccdce193698d33deb9ffd4be74eaa74c4898",
+            "symbol": "ElonRWA",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xd2d3b78fef22406696ef9e7fe9bbecf98802690d",
+        "token0": {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x889af944e95788f770983062b13b5a52e367029b",
+        "token0": {
+            "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+            "symbol": "WBTC",
+            "decimals": "8"
+        },
+        "token1": {
+            "address": "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40",
+            "symbol": "tBTC",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x149e36e72726e0bcea5c59d40df2c43f60f5a22d",
+        "token0": {
+            "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+            "symbol": "WBTC",
+            "decimals": "8"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xe9a65059e895dd5d49806f6a71b63fed0ffffd4b",
+        "token0": {
+            "address": "0x161e113b8e9bbaefb846f73f31624f6f9607bd44",
+            "symbol": "SIMMI",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xd5ce34faff1ec1500bd276676d25ff3b0eb290c4",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x96670abdfe28dba8a12558e4e14d5df4c66a938d",
+            "symbol": "GOAT",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xd95bae63641d822dc591bd4aca7a64e53eac76f9",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xebff2db643cf955247339c8c6bcd8406308ca437",
+            "symbol": "CHOMP",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0x55f3b570a62a346e98d88e20a36cc41c5da69980",
+        "token0": {
+            "address": "0x2f20cf3466f80a5f7f532fca553c8cbc9727fef6",
+            "symbol": "AKUMA",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x8e0a7d4018fb2674346d5742055174f899fe1826",
+        "token0": {
+            "address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+            "symbol": "VIRTUAL",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x142c9660bcc9f4ff95c14393238980e17dca4755",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xcfbdaa56f1945e377ffdf38a5612c37f48819927",
+            "symbol": "TRUMP",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0x2ae3d6096d8215ac2acddf30c60caa984ea5debe",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xdc6ff44d5d932cbd77b52e5612ba0529dc6226f1",
+            "symbol": "WLD",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x67ab0e84c7f9e399a67037f94a08e5c664dc1c66",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x7f12d13b34f5f4f0a9449c16bcd42f0da47af200",
+            "symbol": "NORMIE",
+            "decimals": "9"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x0fb597d6cfe5be0d5258a7f017599c2a4ece34c7",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x52b492a33e447cdb854c7fc19f1e57e8bfa1777d",
+            "symbol": "PEPE",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xc88cc0ff99244b2da41a5990bb15cac70cf2ede5",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x783b396b10cf56768d6daccaeacf1713eca04791",
+            "symbol": "PNUT",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0xd2fe45fb32340cbafe5075fd32cc2ecb46530771",
+        "token0": {
+            "address": "0x31dcf758d5f85d926c3fbe1c830439f2fdb32d6c",
+            "symbol": "DINO",
+            "decimals": "10"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0x3268d7efa254e648ffe968664e47ca226e27cd04",
+        "token0": {
+            "address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+            "symbol": "VIRTUAL",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xab964f7b7b6391bd6c4e8512ef00d01f255d9c0d",
+            "symbol": "CONVO",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x529d2863a1521d0b57db028168fde2e97120017c",
+        "token0": {
+            "address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+            "symbol": "VIRTUAL",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0xf5a97ece4b42927bbc4942533ee91678a4ad27eb",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82ee5a5e1f569383483e3ac8b4edba2a54104326",
+            "symbol": "APED",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xcb198a55e2a88841e855be4eacaad99422416b33",
+        "token0": {
+            "address": "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40",
+            "symbol": "tBTC",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "optimism",
+        "address": "0xa8a5356ee5d02fe33d72355e4f698782f8f199e8",
+        "token0": {
+            "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+            "symbol": "axlUSDC",
+            "decimals": "6"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x6075d9565ca165f30ef461dedcdc71de6326e25a",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x9a545ec1ddd71505bbf5df04ac3fa8ca669dcadb",
+            "symbol": "UNI",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x53c6ca2597711ca7a73b6921faf4031eedf71339",
+        "token0": {
+            "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+            "symbol": "WBTC",
+            "decimals": "8"
+        },
+        "token1": {
+            "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0xcfaf75a3d292c3535ea3acdb16ed2ee58c2bb091",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x70737489dfdf1a29b7584d40500d3561bd4fe196",
+            "symbol": "BORED",
+            "decimals": "18"
+        },
+        "feeTier": "10000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x9d07472f35cb348abac8a2491cbaa002c0abd5d1",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xbee68b06455b8b9a3639be74a0ac5a5aa81500bb",
+            "symbol": "FRENS",
+            "decimals": "18"
+        },
+        "feeTier": "100"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v2",
+        "chain": "base",
+        "address": "0xd1eab29c8a0d457b8858b077e641506b07ed81bc",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xe13b642f42a702e0046d9d7d23894fd35d2005ba",
+            "symbol": "Kekius",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0x03a33aee5f4947b9c1cde042c5f037d1be304be7",
+        "token0": {
+            "address": "0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66",
+            "symbol": "XAI",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "3000"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "arbitrum",
+        "address": "0xa9e9cb16e922892aa563a5adb0f7d976efce36fb",
+        "token0": {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x32f4074d065938f492f30e4b1450fe742209dd32",
+        "token0": {
+            "address": "0x1d8148823c46b9c55b678ca84beb82bc3523adb1",
+            "symbol": "OCEAN",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x882c5c9c6ae3c961e31b56ba126f2ce8a798446c",
+        "token0": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0xa5461d43dc89582b7f5de7aaa613dee09e20e0b9",
+            "symbol": "LLM",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    },
+    {
+        "protocol": "uniswap",
+        "version": "v3",
+        "chain": "base",
+        "address": "0x10648ba41b8565907cfa1496765fa4d95390aa0d",
+        "token0": {
+            "address": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+            "symbol": "cbETH",
+            "decimals": "18"
+        },
+        "token1": {
+            "address": "0x4200000000000000000000000000000000000006",
+            "symbol": "WETH",
+            "decimals": "18"
+        },
+        "feeTier": "500"
+    }
+]

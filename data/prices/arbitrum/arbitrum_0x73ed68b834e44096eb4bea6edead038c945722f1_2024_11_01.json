@@ -1,0 +1,44 @@
+[
+    {
+        "timestamp": "2024-11-01T05:00:00",
+        "price": 0.00016859101931932291,
+        "median_price": 0.0001685910193193229,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T07:00:00",
+        "price": 0.00016789127381430566,
+        "median_price": 0.00016789127381430566,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T11:00:00",
+        "price": 0.00016936195387685002,
+        "median_price": 0.00016936195387685002,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T14:00:00",
+        "price": 0.00017075680550635063,
+        "median_price": 0.00017075680550635063,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T18:00:00",
+        "price": 0.00016887324040478041,
+        "median_price": 0.0001688732404047804,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T20:00:00",
+        "price": 0.00016786450256677695,
+        "median_price": 0.00016786450256677692,
+        "median_safe_price": null
+    },
+    {
+        "timestamp": "2024-11-01T21:00:00",
+        "price": 0.00016788563523634285,
+        "median_price": 0.00016788563523634285,
+        "median_safe_price": null
+    }
+]
