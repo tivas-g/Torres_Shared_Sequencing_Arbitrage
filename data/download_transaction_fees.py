@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import sys
 import time
 import json
 import requests
@@ -9,13 +10,25 @@ import pandas as pd
 
 STARTING_DATE  = "2024-11-01"
 ENDING_DATE    = "2024-11-01"
-API_KEY        = "W8ax4JoLX4xa9pX1Qow-uMrPGnImFEHo-YjKM4ixU2A4b7WhxDuGVishO0djeMKb6Bt-5ouZBn8aTJqDGQF43w"
 CHAINS         = ["arbitrum", "optimism", "base"]
-MAX_LENGTH     = 5
+MAX_SWAP_COUNT = 5
+
+class colors:
+    INFO = '\033[94m'
+    OK = '\033[92m'
+    FAIL = '\033[91m'
+    END = '\033[0m'
+
 
 def main():
+    if len(sys.argv) < 2:
+        print(colors.FAIL+"Error: Please provide an Allium API key to download transaction fees: 'python3 "+sys.argv[0]+" <ALLIUM_API_KEY>'"+colors.END)
+        sys.exit(-1)
+
+    allium_api_key = sys.argv[1]
+
     for chain in CHAINS:
-        for length in range(2, MAX_LENGTH + 1):
+        for swap_count in range(2, MAX_SWAP_COUNT + 1):
 
             if not os.path.exists("fees/"+chain+"/"):
                 os.makedirs("fees/"+chain+"/")
@@ -27,16 +40,16 @@ def main():
                 start_date = str(date[0])+"-"+"{:02d}".format(date[1])+"-"+"{:02d}".format(date[2])+"T00:00:00"
                 end_date = str(date[0])+"-"+"{:02d}".format(date[1])+"-"+"{:02d}".format(date[2])+"T23:59:59"
 
-                if not os.path.exists("fees/"+chain+"/"+chain+"_"+str(length)+"_transaction_fees_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json"):
+                if not os.path.exists("fees/"+chain+"/"+chain+"_"+str(swap_count)+"_transaction_fees_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json"):
 
-                    print("Downloading transaction fees on "+chain.capitalize()+" for length "+str(length)+" from", start_date, "to", end_date)
+                    print("Downloading transaction fees on "+chain.capitalize()+" for swap count "+str(swap_count)+" from", start_date, "to", end_date)
                     download_start = time.time()
 
                     # Create a query run
                     response = requests.post(
                         "https://api.allium.so/api/v1/explorer/queries/Fsgqyna1VrcP3LLYKp5b/run-async",
-                        json={"parameters": {"chain": chain, "swap_count": str(length), "block_timestamp_start": start_date, "block_timestamp_end": end_date}, "run_config": {"limit": 250000}},
-                        headers={"X-API-Key": API_KEY}
+                        json={"parameters": {"chain": chain, "swap_count": str(swap_count), "block_timestamp_start": start_date, "block_timestamp_end": end_date}, "run_config": {"limit": 250000}},
+                        headers={"X-API-Key": allium_api_key}
                     )
                     query_run_id = response.json()["run_id"]
                     
@@ -44,7 +57,7 @@ def main():
                     while True:
                         response = requests.get(
                             "https://api.allium.so/api/v1/explorer/query-runs/"+query_run_id,
-                            headers={"X-API-Key": API_KEY}
+                            headers={"X-API-Key": allium_api_key}
                         )
                         if not response.json()["status"] in ["queued", "running"]:
                             break
@@ -54,7 +67,7 @@ def main():
                     response = requests.post(
                         "https://api.allium.so/api/v1/explorer/query-runs/"+query_run_id+"/results",
                         headers={
-                            "X-API-Key": API_KEY,
+                            "X-API-Key": allium_api_key,
                             "Content-Type": "application/json"
                         },
                         json={"config": {}}
@@ -67,7 +80,7 @@ def main():
                     for fee in response.json()["data"]:
                         fees.append(fee)
 
-                    with open("fees/"+chain+"/"+chain+"_"+str(length)+"_transaction_fees_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", "w") as f:
+                    with open("fees/"+chain+"/"+chain+"_"+str(swap_count)+"_transaction_fees_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", "w") as f:
                         json.dump(fees, f, indent=4)
                     print("Saved", len(fees), "transaction fee instances.")
 

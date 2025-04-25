@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import sys
 import time
 import json
 import requests
@@ -10,21 +11,38 @@ import pandas as pd
 STARTING_DATE = "2024-11-01"
 ENDING_DATE   = "2024-11-01"
 CHAINS        = ["arbitrum", "optimism", "base"] 
-PATHS         = "../simulation/paths.json"
-API_KEY       = "W8ax4JoLX4xa9pX1Qow-uMrPGnImFEHo-YjKM4ixU2A4b7WhxDuGVishO0djeMKb6Bt-5ouZBn8aTJqDGQF43w"
+PATHS         = ["cross_chain_paths.json", "single_chain_paths.json"]
+
+class colors:
+    INFO = '\033[94m'
+    OK = '\033[92m'
+    FAIL = '\033[91m'
+    END = '\033[0m'
+
 
 def main():
-    pairs = dict()
+    if len(sys.argv) < 2:
+        print(colors.FAIL+"Error: Please provide an Allium API key to download Uniswap V2 events: 'python3 "+sys.argv[0]+" <ALLIUM_API_KEY>'"+colors.END)
+        sys.exit(-1)
 
+    allium_api_key = sys.argv[1]
+
+    if not any([os.path.exists(path) for path in PATHS]):
+        print(colors.FAIL+"Error: Please run 'simulation/path_builder.py' first to create any of the '"+", ".join(PATHS)+"' files first!"+colors.END)
+        sys.exit(-2)
+
+    pairs = dict()
+ 
     for chain in CHAINS:
         pairs[chain] = set()
     
-    with open(PATHS, "r") as f:
-        paths = json.load(f)
-        for path in paths:
-            for route in path:
-                if route["chain"] in CHAINS and route["protocol"] == "uniswap" and route["version"] == "v2":
-                    pairs[route["chain"]].add(route["address"].lower())
+    for path in PATHS:
+        with open(path, "r") as f:
+            paths = json.load(f)
+            for path in paths:
+                for route in path:
+                    if route["chain"] in CHAINS and route["protocol"] == "uniswap" and route["version"] == "v2":
+                        pairs[route["chain"]].add(route["address"].lower())
 
     for chain in CHAINS:
         if not os.path.exists("uniswap_v2/"+chain+"/"):
@@ -52,7 +70,7 @@ def main():
                 response = requests.post(
                     "https://api.allium.so/api/v1/explorer/queries/4MykukH1JAzASTWB4Bdz/run-async",
                     json={"parameters": {"chain": chain, "pools": str(list(pairs[chain])), "block_timestamp_start": start_date, "block_timestamp_end": end_date}, "run_config": {"limit": 250000}},
-                    headers={"X-API-Key": API_KEY}
+                    headers={"X-API-Key": allium_api_key}
                 )
                 query_run_id = response.json()["run_id"]
                 
@@ -60,7 +78,7 @@ def main():
                 while True:
                     response = requests.get(
                         "https://api.allium.so/api/v1/explorer/query-runs/"+query_run_id,
-                        headers={"X-API-Key": API_KEY}
+                        headers={"X-API-Key": allium_api_key}
                     )
                     import pprint
                     if not response.json()["status"] in ["queued", "running"]:
@@ -71,7 +89,7 @@ def main():
                 response = requests.post(
                     "https://api.allium.so/api/v1/explorer/query-runs/"+query_run_id+"/results",
                     headers={
-                        "X-API-Key": API_KEY,
+                        "X-API-Key": allium_api_key,
                         "Content-Type": "application/json"
                     },
                     json={"config": {}}

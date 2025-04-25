@@ -9,7 +9,7 @@ RESERVE_TOKEN_SYMBOLS = ["WETH", "USDC", "USDT", "WBTC", "DAI"]
 
 def main():
     duplicates = dict()
-    with open('top_pools_over_100m.csv', mode ='r')as file:
+    with open("top_pools_over_100m.csv", "r") as file:
         csvFile = csv.reader(file)
         next(csvFile)
         for row in csvFile:
@@ -19,7 +19,7 @@ def main():
 
     pools = list()
     reserve_token_addresses = dict()
-    with open('top_pools_over_100m.csv', mode ='r')as file:
+    with open("top_pools_over_100m.csv", "r") as file:
         csvFile = csv.reader(file)
         next(csvFile)
         for row in csvFile:
