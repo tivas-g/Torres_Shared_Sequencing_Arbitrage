@@ -8,9 +8,13 @@ import json
 import requests
 import pandas as pd
 
+# INPUT
 STARTING_DATE  = "2024-11-01"
 ENDING_DATE    = "2024-11-01"
 RESERVE_TOKENS = "reserve_token_addresses.json"
+
+# OUTPUT
+OUTPUT_FOLDER  = "prices"
 
 class colors:
     INFO = '\033[94m'
@@ -38,8 +42,8 @@ def main():
         for chain in reserve_token_addresses[symbol]:
             address = reserve_token_addresses[symbol][chain]
 
-            if not os.path.exists("prices/"+chain+"/"):
-                os.makedirs("prices/"+chain+"/")
+            if not os.path.exists(OUTPUT_FOLDER+"/"+chain+"/"):
+                os.makedirs(OUTPUT_FOLDER+"/"+chain+"/")
         
             period_range = pd.period_range(start=STARTING_DATE, end=ENDING_DATE, freq="D")
             dates = tuple([(period.year, period.month, period.day) for period in period_range])
@@ -48,7 +52,7 @@ def main():
                 start_date = str(date[0])+"-"+"{:02d}".format(date[1])+"-"+"{:02d}".format(date[2])+"T00:00:00"
                 end_date = str(date[0])+"-"+"{:02d}".format(date[1])+"-"+"{:02d}".format(date[2])+"T23:59:59"
 
-                if not os.path.exists("prices/"+chain+"/"+chain+"_"+address.lower()+"_prices_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json"):
+                if not os.path.exists(OUTPUT_FOLDER+"/"+chain+"/"+chain+"_"+address.lower()+"_prices_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json"):
 
                     print("Downloading "+symbol+" prices on "+chain.capitalize()+" for token address "+address+" from", start_date, "to", end_date)
                     download_start = time.time()
@@ -88,7 +92,7 @@ def main():
                     for price in response.json()["data"]:
                         prices.append(price)
 
-                    with open("prices/"+chain+"/"+chain+"_"+address.lower()+"_prices_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", "w") as f:
+                    with open(OUTPUT_FOLDER+"/"+chain+"/"+chain+"_"+address.lower()+"_prices_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", "w") as f:
                         json.dump(prices, f, indent=4)
                     print("Saved", len(prices), "price updates.")
 

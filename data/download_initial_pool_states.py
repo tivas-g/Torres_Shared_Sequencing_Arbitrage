@@ -2,22 +2,42 @@
 # -*- coding: utf-8 -*-
 
 import os
+import sys
 import json
-import pprint
 import requests
 
-STARTING_DATE = "2024-11-01"
-API_KEY       = "W8ax4JoLX4xa9pX1Qow-uMrPGnImFEHo-YjKM4ixU2A4b7WhxDuGVishO0djeMKb6Bt-5ouZBn8aTJqDGQF43w"
+# INPUT
+STARTING_DATE       = "2024-11-01"
+POOLS               = "pools.json"
+
+# OUTPUT
+INITIAL_POOL_STATES = "initial_pool_states.json"
+
+class colors:
+    INFO = '\033[94m'
+    OK = '\033[92m'
+    FAIL = '\033[91m'
+    END = '\033[0m'
 
 
 def main():
+    if len(sys.argv) < 2:
+        print(colors.FAIL+"Error: Please provide an Allium API key to download initial pool states: 'python3 "+sys.argv[0]+" <ALLIUM_API_KEY>'"+colors.END)
+        sys.exit(-1)
+
+    allium_api_key = sys.argv[1]
+
+    if not os.path.exists(POOLS):
+        print(colors.FAIL+"Error: Please run 'data/extract_pools.py' first to create the '"+POOLS+"' file first!"+colors.END)
+        sys.exit(-2)
+
     pools = list()
-    with open("pools.json", "r") as f:
+    with open(POOLS, "r") as f:
         pools = json.load(f)
 
     initial_pool_state = dict()
-    if os.path.exists("initial_pool_states.json"):
-        with open("initial_pool_states.json", "r") as f:
+    if os.path.exists(INITIAL_POOL_STATES):
+        with open(INITIAL_POOL_STATES, "r") as f:
             initial_pool_state = json.load(f)
 
     for pool in pools:
@@ -28,7 +48,7 @@ def main():
                     response = requests.post(
                         "https://api.allium.so/api/v1/explorer/queries/hf7Ayf6BVo83ArAjqOX1/run",
                         json={"chain": pool["chain"], "block_timestamp": STARTING_DATE+"T00:00:00", "pool": pool["address"]},
-                        headers={"X-API-Key": API_KEY},
+                        headers={"X-API-Key": allium_api_key},
                     )
 
                     data = response.json()["data"]
@@ -44,14 +64,14 @@ def main():
                             "reserve1": None
                         }
 
-                    with open("initial_pool_states.json", "w") as f:
+                    with open(INITIAL_POOL_STATES, "w") as f:
                         json.dump(initial_pool_state, f, indent=4)
 
                 elif pool["version"] == "v3":
                     response = requests.post(
                         "https://api.allium.so/api/v1/explorer/queries/Y1y4Q4pbNhaiQPEzSFdw/run",
                         json={"chain": pool["chain"], "events": "('swap', 'mint', 'burn')", "block_timestamp": STARTING_DATE+"T00:00:00", "pool": pool["address"], "limit": "1"},
-                        headers={"X-API-Key": API_KEY},
+                        headers={"X-API-Key": allium_api_key},
                     )
 
                     data = response.json()["data"]
@@ -75,7 +95,7 @@ def main():
                             response = requests.post(
                                 "https://api.allium.so/api/v1/explorer/queries/Y1y4Q4pbNhaiQPEzSFdw/run",
                                 json={"chain": pool["chain"], "events": "('swap', 'mint', 'burn')", "block_timestamp": STARTING_DATE+"T00:00:00", "pool": pool["address"], "limit": "100"},
-                                headers={"X-API-Key": API_KEY},
+                                headers={"X-API-Key": allium_api_key},
                             )
                             
                             data = response.json()["data"]
@@ -115,7 +135,7 @@ def main():
                             "sqrt_price": None
                         }
 
-                    with open("initial_pool_states.json", "w") as f:
+                    with open(INITIAL_POOL_STATES, "w") as f:
                         json.dump(initial_pool_state, f, indent=4)
                     
 

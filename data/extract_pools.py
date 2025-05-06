@@ -1,15 +1,33 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import os
+import sys
 import csv
 import json
 
-RESERVE_TOKEN_SYMBOLS = ["WETH", "USDC", "USDT", "WBTC", "DAI"]
+# INPUT
+TOP_POOLS               = "top_pools_over_100m.csv"
+RESERVE_TOKEN_SYMBOLS   = ["WETH", "USDC", "USDT", "WBTC", "DAI"]
+
+# OUTPUT
+POOLS                   = "pools.json"
+RESERVE_TOKEN_ADDRESSES = "reserve_token_addresses.json"
+
+class colors:
+    INFO = '\033[94m'
+    OK = '\033[92m'
+    FAIL = '\033[91m'
+    END = '\033[0m'
 
 
 def main():
+    if not os.path.exists(POOLS):
+        print(colors.FAIL+"Error: Please run 'data/download_top_pools.py' first to create the '"+TOP_POOLS+"' file first!"+colors.END)
+        sys.exit(-1)
+
     duplicates = dict()
-    with open("top_pools_over_100m.csv", "r") as file:
+    with open(TOP_POOLS, "r") as file:
         csvFile = csv.reader(file)
         next(csvFile)
         for row in csvFile:
@@ -19,7 +37,7 @@ def main():
 
     pools = list()
     reserve_token_addresses = dict()
-    with open("top_pools_over_100m.csv", "r") as file:
+    with open(TOP_POOLS, "r") as file:
         csvFile = csv.reader(file)
         next(csvFile)
         for row in csvFile:
@@ -55,7 +73,7 @@ def main():
                     })
     print("Number of pools:", len(pools))
     print()
-    with open("pools.json", "w") as f:
+    with open(POOLS, "w") as f:
         json.dump(pools, f, indent=4)
     
     irrelevant_tokens = list()
@@ -67,7 +85,7 @@ def main():
     for token in reserve_token_addresses:
         for chain in reserve_token_addresses[token]:
             print(token, "\t", chain.ljust(10), "\t", reserve_token_addresses[token][chain])
-    with open("reserve_token_addresses.json", "w") as f:
+    with open(RESERVE_TOKEN_ADDRESSES, "w") as f:
         json.dump(reserve_token_addresses, f, indent=4)
 
 

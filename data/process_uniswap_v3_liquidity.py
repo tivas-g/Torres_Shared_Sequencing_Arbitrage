@@ -14,20 +14,29 @@ from datetime import datetime
 from web3 import Web3
 from web3.middleware import ExtraDataToPOAMiddleware
 
-
+# INPUT
+STARTING_DATE     = "2024-11-01"
+ENDING_DATE       = "2024-11-01"
+CHAINS            = ["arbitrum", "optimism", "base"] 
+INPUT_FOLDER      = "uniswap_v3"
 OPTIMISM_PROVIDER = Web3.HTTPProvider("https://rpc.ankr.com/optimism", request_kwargs={'timeout': 60})
 BASE_PROVIDER     = Web3.HTTPProvider("https://rpc.ankr.com/base",     request_kwargs={'timeout': 60})
 ARBITRUM_PROVIDER = Web3.HTTPProvider("https://rpc.ankr.com/arbitrum", request_kwargs={'timeout': 60})
 
-STARTING_DATE = "2024-11-01"
-ENDING_DATE   = "2024-11-01"
-CHAINS        = ["arbitrum", "optimism", "base"] 
-PATHS         = "../simulation/paths.json"
-MONGO_HOST    = "localhost"
-MONGO_PORT    = 27017
+# OUTPUT
+MONGO_HOST        = "localhost"
+MONGO_PORT        = 27017
+
+class colors:
+    INFO = '\033[94m'
+    OK = '\033[92m'
+    FAIL = '\033[91m'
+    END = '\033[0m'
+
 
 def main():
     processing_start = time.time()
+
     mongo_connection = pymongo.MongoClient("mongodb://"+MONGO_HOST+":"+str(MONGO_PORT), maxPoolSize=None)
     collection = mongo_connection["cross_chain_arbitrage"]["dex_updates"]
 
@@ -37,12 +46,12 @@ def main():
         
         for date in dates:
 
-            if not os.path.exists("uniswap_v3/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json"):
-                print("Error file 'uniswap_v3/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json' is missing!")
+            if not os.path.exists(INPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json"):
+                print(colors.FAIL+"Error file '"+INPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json' is missing!"+colors.END)
                 sys.exit(-1)
             
-            print("Searching for liquidity updates within:", "uniswap_v3/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json")
-            with open("uniswap_v3/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", 'r') as f:
+            print("Searching for liquidity updates within:", INPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json")
+            with open(INPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", 'r') as f:
                 events = json.load(f)
                 
                 ordered_events = dict()
@@ -199,6 +208,7 @@ def main():
 
     processing_stop = time.time()
     print("Total processing took:", processing_stop - processing_start, "second(s).")
-                   
+
+
 if __name__ == "__main__":
     main()

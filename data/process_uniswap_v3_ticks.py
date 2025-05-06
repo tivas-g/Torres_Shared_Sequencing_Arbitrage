@@ -11,15 +11,32 @@ import pandas as pd
 
 from hashlib import sha256
 
-STARTING_DATE    = "2024-11-01"
-ENDING_DATE      = "2024-11-01"
-CHAINS           = ["arbitrum", "optimism", "base"] 
-MONGO_HOST       = "localhost"
-MONGO_PORT       = 27017
-API_KEY          = "W8ax4JoLX4xa9pX1Qow-uMrPGnImFEHo-YjKM4ixU2A4b7WhxDuGVishO0djeMKb6Bt-5ouZBn8aTJqDGQF43w"
+# INPUT
+STARTING_DATE = "2024-11-01"
+ENDING_DATE   = "2024-11-01"
+CHAINS        = ["arbitrum", "optimism", "base"] 
+INPUT_FOLDER  = "uniswap_v3"
+
+# OUTPUT
+MONGO_HOST    = "localhost"
+MONGO_PORT    = 27017
+
+class colors:
+    INFO = '\033[94m'
+    OK = '\033[92m'
+    FAIL = '\033[91m'
+    END = '\033[0m'
+
 
 def main():
+    if len(sys.argv) < 2:
+        print(colors.FAIL+"Error: Please provide an Allium API key to download Uniswap V3 ticks: 'python3 "+sys.argv[0]+" <ALLIUM_API_KEY>'"+colors.END)
+        sys.exit(-1)
+
+    allium_api_key = sys.argv[1]
+    
     processing_start = time.time()
+    
     mongo_connection = pymongo.MongoClient("mongodb://"+MONGO_HOST+":"+str(MONGO_PORT), maxPoolSize=None)
     collection = mongo_connection["cross_chain_arbitrage"]["dex_updates"]
                     
@@ -30,7 +47,7 @@ def main():
         pools = list(collection.distinct("pool", {"chain": chain, "tick": {"$exists": True}}))
 
         for pool in pools:
-            if not os.path.exists("uniswap_v3/"+chain+"/"+chain+"_uniswap_v3_ticks_"+pool+".json"):
+            if not os.path.exists(INPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v3_ticks_"+pool+".json"):
                 print("Downloading "+chain.capitalize()+" Uniswap V3 ticks for pool", pool, "until", STARTING_DATE)
                 download_start = time.time()
 
@@ -38,7 +55,7 @@ def main():
                 response = requests.post(
                     "https://api.allium.so/api/v1/explorer/queries/Gpm54k46AGjtegifodfr/run-async",
                     json={"parameters": {"chain": chain, "pool": pool.lower(), "block_timestamp": STARTING_DATE+"T00:00:00"}, "run_config": {"limit": 250000}},
-                    headers={"X-API-Key": API_KEY}
+                    headers={"X-API-Key": allium_api_key}
                 )
                 query_run_id = response.json()["run_id"]
                 
@@ -46,7 +63,7 @@ def main():
                 while True:
                     response = requests.get(
                         "https://api.allium.so/api/v1/explorer/query-runs/"+query_run_id,
-                        headers={"X-API-Key": API_KEY}
+                        headers={"X-API-Key": allium_api_key}
                     )
                     if not response.json()["status"] in ["queued", "running"]:
                         break
@@ -56,7 +73,7 @@ def main():
                 response = requests.post(
                     "https://api.allium.so/api/v1/explorer/query-runs/"+query_run_id+"/results",
                     headers={
-                        "X-API-Key": API_KEY,
+                        "X-API-Key": allium_api_key,
                         "Content-Type": "application/json"
                     },
                     json={"config": {}}
@@ -80,7 +97,7 @@ def main():
                         ticks[tick_lower] -= int(event["liquidity"])
                         ticks[tick_upper] += int(event["liquidity"])
                 
-                with open("uniswap_v3/"+chain+"/"+chain+"_uniswap_v3_ticks_"+pool+".json", "w") as f:
+                with open(INPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v3_ticks_"+pool+".json", "w") as f:
                     json.dump({k: ticks[k] for k in sorted(ticks)}, f, indent=4)
                 print("Saved", len(ticks), "ticks.")
 
@@ -88,12 +105,12 @@ def main():
         
         for date in dates:
 
-            if not os.path.exists("uniswap_v3/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json"):
-                print("Error file 'uniswap_v3/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json' is missing!")
-                sys.exit(-1)
+            if not os.path.exists(INPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json"):
+                print(colors.FAIL+"Error file '"+INPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json' is missing!"+colors.END)
+                sys.exit(-2)
             
-            print("Searching for tick updates within:", "uniswap_v3/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json")
-            with open("uniswap_v3/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", 'r') as f:
+            print("Searching for tick updates within:", INPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json")
+            with open(INPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v3_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", 'r') as f:
                 events = json.load(f)
                 
                 ordered_events = dict()
@@ -116,7 +133,7 @@ def main():
                         for event in ordered_events[block_number][transaction_index]:
 
                             if not event["liquidity_pool_address"] in ticks:
-                                with open("uniswap_v3/"+chain+"/"+chain+"_uniswap_v3_ticks_"+event["liquidity_pool_address"]+".json", "r") as f:
+                                with open(INPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v3_ticks_"+event["liquidity_pool_address"]+".json", "r") as f:
                                     ticks[event["liquidity_pool_address"]] = json.load(f)
                                     for tick in ticks[event["liquidity_pool_address"]]:
                                         ticks[event["liquidity_pool_address"]][tick] = str(ticks[event["liquidity_pool_address"]][tick])
@@ -154,6 +171,7 @@ def main():
 
     processing_stop = time.time()
     print("Total processing took:", processing_stop - processing_start, "second(s).")
+                   
                    
 if __name__ == "__main__":
     main()

@@ -8,10 +8,14 @@ import json
 import requests
 import pandas as pd
 
+# INPUT
 STARTING_DATE = "2024-11-01"
 ENDING_DATE   = "2024-11-01"
 CHAINS        = ["arbitrum", "optimism", "base"] 
 PATHS         = ["cross_chain_paths.json", "single_chain_paths.json"]
+
+# OUTPUT
+OUTPUT_FOLDER = "uniswap_v2"
 
 class colors:
     INFO = '\033[94m'
@@ -45,8 +49,8 @@ def main():
                         pairs[route["chain"]].add(route["address"].lower())
 
     for chain in CHAINS:
-        if not os.path.exists("uniswap_v2/"+chain+"/"):
-            os.makedirs("uniswap_v2/"+chain+"/")
+        if not os.path.exists(OUTPUT_FOLDER+"/"+chain+"/"):
+            os.makedirs(OUTPUT_FOLDER+"/"+chain+"/")
         
         period_range = pd.period_range(start=STARTING_DATE, end=ENDING_DATE, freq="D")
         dates = tuple([(period.year, period.month, period.day) for period in period_range])
@@ -57,11 +61,11 @@ def main():
         
             if len(pairs[chain]) == 0:
                 events = list()
-                with open("uniswap_v2/"+chain+"/"+chain+"_uniswap_v2_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", "w") as f:
+                with open(OUTPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v2_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", "w") as f:
                     json.dump(events, f, indent=4)
                 continue
 
-            if not os.path.exists("uniswap_v2/"+chain+"/"+chain+"_uniswap_v2_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json"):
+            if not os.path.exists(OUTPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v2_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json"):
 
                 print("Downloading "+chain.capitalize()+" Uniswap V2 events from", start_date, "to", end_date)
                 download_start = time.time()
@@ -102,7 +106,7 @@ def main():
                 for event in response.json()["data"]:
                     events.append(event)
 
-                with open("uniswap_v2/"+chain+"/"+chain+"_uniswap_v2_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", "w") as f:
+                with open(OUTPUT_FOLDER+"/"+chain+"/"+chain+"_uniswap_v2_events_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", "w") as f:
                     json.dump(events, f, indent=4)
                 print("Saved", len(events), "events.")
 

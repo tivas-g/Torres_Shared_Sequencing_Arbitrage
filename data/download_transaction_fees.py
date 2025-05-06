@@ -8,10 +8,14 @@ import json
 import requests
 import pandas as pd
 
+# INPUT
 STARTING_DATE  = "2024-11-01"
 ENDING_DATE    = "2024-11-01"
 CHAINS         = ["arbitrum", "optimism", "base"]
 MAX_SWAP_COUNT = 5
+
+# OUTPUT
+OUTPUT_FOLDER  = "fees"
 
 class colors:
     INFO = '\033[94m'
@@ -30,8 +34,8 @@ def main():
     for chain in CHAINS:
         for swap_count in range(2, MAX_SWAP_COUNT + 1):
 
-            if not os.path.exists("fees/"+chain+"/"):
-                os.makedirs("fees/"+chain+"/")
+            if not os.path.exists(OUTPUT_FOLDER+"/"+chain+"/"):
+                os.makedirs(OUTPUT_FOLDER+"/"+chain+"/")
         
             period_range = pd.period_range(start=STARTING_DATE, end=ENDING_DATE, freq="D")
             dates = tuple([(period.year, period.month, period.day) for period in period_range])
@@ -40,7 +44,7 @@ def main():
                 start_date = str(date[0])+"-"+"{:02d}".format(date[1])+"-"+"{:02d}".format(date[2])+"T00:00:00"
                 end_date = str(date[0])+"-"+"{:02d}".format(date[1])+"-"+"{:02d}".format(date[2])+"T23:59:59"
 
-                if not os.path.exists("fees/"+chain+"/"+chain+"_"+str(swap_count)+"_transaction_fees_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json"):
+                if not os.path.exists(OUTPUT_FOLDER+"/"+chain+"/"+chain+"_"+str(swap_count)+"_transaction_fees_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json"):
 
                     print("Downloading transaction fees on "+chain.capitalize()+" for swap count "+str(swap_count)+" from", start_date, "to", end_date)
                     download_start = time.time()
@@ -80,7 +84,7 @@ def main():
                     for fee in response.json()["data"]:
                         fees.append(fee)
 
-                    with open("fees/"+chain+"/"+chain+"_"+str(swap_count)+"_transaction_fees_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", "w") as f:
+                    with open(OUTPUT_FOLDER+"/"+chain+"/"+chain+"_"+str(swap_count)+"_transaction_fees_"+str(date[0])+"_"+"{:02d}".format(date[1])+"_"+"{:02d}".format(date[2])+".json", "w") as f:
                         json.dump(fees, f, indent=4)
                     print("Saved", len(fees), "transaction fee instances.")
 
